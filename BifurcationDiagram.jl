@@ -3,7 +3,7 @@ using Plots
 global x0=0.1  #initial value between 0 and 1
 f(x,μ)=μ*x*(1-x)  #logistic map
 #f(x,μ)=μ*x*(1-x)^(exp(x*sin(x)))  #another example
-#f(x,μ)=-μ*sin(x)  #another example
+#f(x,μ)=μ*sin(x)  #another example
 
 firstParam=0.1  #first paramater
 lastParam=4  #last paramater
